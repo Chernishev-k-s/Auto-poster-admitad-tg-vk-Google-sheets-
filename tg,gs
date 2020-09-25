@@ -1,4 +1,4 @@
-var token_tg = '1286656587:AAGB3W2hJqGMO-gQSETK6Ah5Gh19vCCuzvY';
+var token_tg = '';
 var url_tg = 'https://api.telegram.org/bot'+token_tg+'/'
 
 function tg_post(group_id,text,photo)
