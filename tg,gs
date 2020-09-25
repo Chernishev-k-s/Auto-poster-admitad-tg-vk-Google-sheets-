@@ -1,0 +1,9 @@
+var token_tg = '1286656587:AAGB3W2hJqGMO-gQSETK6Ah5Gh19vCCuzvY';
+var url_tg = 'https://api.telegram.org/bot'+token_tg+'/'
+
+function tg_post(group_id,text,photo)
+{
+  var url = url_tg+'sendMessage';
+  var ret = UrlFetchApp.fetch(url, { payload: {chat_id:group_id,text:'[ ]('+photo+')' + text,disable_web_page_preview:false , parse_mode : 'Markdown' } })
+  return JSON.parse(ret)
+}
