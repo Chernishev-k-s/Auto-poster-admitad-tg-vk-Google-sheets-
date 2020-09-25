@@ -1,8 +1,8 @@
 var access_token;
-var id = '1570028';
-var ali = '6115'
-var client_id = 'fVsnJcv12XNySyr0aoxbjD9Lcjc5YN';
-var token_adm = 'ZlZzbkpjdjEyWE55U3lyMGFveGJqRDlMY2pjNVlOOlRDQ240ZkdhaHRSZjRwOUJ2TUl0YmxFTm5xa3l0Vw==';
+var id = '';
+var ali = ''
+var client_id = '';
+var token_adm = '';
 
 
 function reg()
