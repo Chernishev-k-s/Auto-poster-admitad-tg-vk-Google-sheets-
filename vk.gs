@@ -1,5 +1,5 @@
-var vk_token = '47203a305aecd68bedd38cacaed2da7084f3c0c7530f50658c6c2128aefb65b1add18266b9c9c81e8d0f6';
-var vk_album = '276543058';
+var vk_token = '';
+var vk_album = '';
 
 //https://oauth.vk.com/authorize?client_id=7601135&display=page&scope=offline,wall,groups,photos&response_type=token&v=5.52
 
